@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.google.com/specimen/Poppins" rel="stylesheet"/>
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+  <div class="container">
+    <form class="date_section">
+      
+      <div class="day">
+        <label for="Bday-day">DAY</label>
+        <input type="text" name="Bday-day" id="bDayInput" placeholder="DD">
+        <small></small>
+      </div>
+      
+      <div class="month">
+        <label for="Bday-month">MONTH</label>
+        <input type="text" name="Bday-month" id="bMonthInput" placeholder="MM">
+        <small></small>
+
+      </div>
+      
+      <div class="year">
+        <label for="Bday-year">YEAR</label>
+        <input type="year" name="Bday-year" id="bYearInput" placeholder="YYYY">
+        <small></small>
+      </div>
+        <button type="submit" class="submit_btn"><img src="icon-arrow.svg" alt=""></button> 
+    </form>
+    <hr>
+
+    <div class="result_section">
+      <div class="result">
+        <h1 class="output" id="yearsOutput">--</h1>
+        <h1>years</h1>
+      </div>
+      
+      <div class="result">
+        <h1 class="output" id="monthsOutput">--</h1>
+        <h1>months</h1> 
+      </div>
+     
+      <div class="result">
+        <h1 class="output" id="daysOutput">--</h1>
+        <h1>days</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><div class="br"></div></p>
+    <p>Coded by <a href="#">Haitham Almutlaq</a>.</p> 
+  </div>
+
+  <script src="app.js"> </script>
+</body>
+</html>

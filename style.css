@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    padding: 90px 0;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 80px 80px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-top: 85px;
+}
+.date_section{
+    display: flex;
+    justify-content: center;
+    color: #737373;
+    font-size:medium;
+    font-weight:bold;
+    margin-bottom: 35px;
+}
+input{
+    width: 55px;
+    padding: 10px;
+    border-radius: .5rem;
+    border: 1px solid hsl(0, 0%, 86%);
+    font-size:medium;
+    font-weight:bold;
+
+}
+hr{
+    margin: 45px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: hsl(0, 0%, 86%);
+
+}
+
+.submit_btn{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 250px;
+}
+.day, .month, .year{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.result{
+    display: flex;
+    margin: 0px 0px -15px 30px;
+    gap: 10px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.result_section{
+    margin-top: 35px;
+}
+.output{
+    color: hsl(259, 100%, 65%);
+}
+small{
+    color: red;
+    font-weight: lighter;
+    font-size: 9px;
+    font-family: sans-serif;
+}
+.attribution{
+    font-size: smaller;
+    justify-content: center;
+    display: grid;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 700px){
+
+   .submit_btn{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 85px;
+    left: 151px;
+    }
+    .container{
+        padding: 40px 0;
+        background-color: hsl(0, 0%, 100%);
+        border-bottom-right-radius: 80px 80px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        max-width: 560px;
+        margin-top: 95px;
+    }
+    .date_section{
+        display: flex;
+        margin-left: 35px;
+        justify-content: flex-start;
+
+    }
+    
+}
